@@ -22,4 +22,5 @@ original data is being used due to memory restrictions. This is something which 
 
 ## External Links
 The data is from https://www.kaggle.com/quora/question-pairs-dataset.
+
 Much of the code for the siamese network was copied from the following tutorial: https://towardsdatascience.com/one-shot-learning-with-siamese-networks-using-keras-17f34e75bb3d
