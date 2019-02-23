@@ -12,8 +12,8 @@ This repository contains two Jupyter Notebooks. The one entitled quora_duplicate
 pretrained model to perform the word embedding and then write the results to a .npz file. The other one is entitled quora_duplicates_model
 and contains code to train the model as well as code to save the model and code to utilize the model to make a prediction. Both of these
 SHOULD ideally be run using Google TPU's (I have been running them using Google Colaboratory). Both of them MUST be run on a machine with
-at least 10GB of RAM (8GB is insufficient to store the post-embedding training data). This repository additionally contains the original 
-data (questions.csv), the data after the embedding (quora_embedded.npz) and a fully trained model (quora_duplicates_feb19.h5).
+at least 10GB of RAM (8GB is insufficient to store the post-embedding training data). This repository additionally contains the data after the embedding (quora_embedded.npz) and a fully trained model (quora_duplicates_feb19.h5). The original data may be obtained through the 
+Kaggle link below.
 
 ## Future improvements
 Due to the model's size, it is currently very slow to load (to the point where it is almost quicker to train it again from scratch). In
@@ -21,6 +21,5 @@ the future, it would be ideal to find a way to quickly load the model so it can 
 original data is being used due to memory restrictions. This is something which ideally would be fixed in the future.
 
 ## External Links
-The data is from https://www.kaggle.com/quora/question-pairs-dataset.
-
+The data is from https://www.kaggle.com/quora/question-pairs-dataset. </br>
 Much of the code for the siamese network was copied from the following tutorial: https://towardsdatascience.com/one-shot-learning-with-siamese-networks-using-keras-17f34e75bb3d
